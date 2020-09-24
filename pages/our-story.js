@@ -48,7 +48,7 @@ export default function OurStoryPage () {
   }
 
   return (
-    <div className="h-full prose prose-xl">
+    <div className="h-full prose prose-xl max-w-full">
       <Head>
         <title>Our Story - Asonye/Isles Wedding</title>
       </Head>
@@ -56,7 +56,9 @@ export default function OurStoryPage () {
       <h3>Where did we meet?</h3>
       <p><span role="img" className="text-4xl" aria-label="bride dark skin">👰🏾</span>: At SMU in 2016! It was my senior year, Enyi&apos;s sophomore year.</p>
       <h3>How did he propose? <span role="img" aria-label="ring">💍</span></h3>
-      <p><span className="text-4xl" role="img" aria-label="groom dark skin">🤵🏾</span></p>
+      <p><span className="text-4xl" role="img" aria-label="groom dark skin">🤵🏾</span>: Lol</p>
+      <h3>Who said I love you first?</h3>
+      <p><span role="img" className="text-4xl" aria-label="bride dark skin">👰🏾</span>: Me, but he knew I was gonna say it before I did and when I got nervous he was like &quot;Nah what were you about to say?&quot; until eventually I let it out. </p>
       <h3>How long have y&apos;ll been together?</h3>
       { prettifyTimeSince() }
     </div>

@@ -12,6 +12,7 @@ export default function Navbar () {
         <Link href="/our-story"><a className={`cursor-pointer mx-4 transform hover:-translate-y-1 ease-in-out duration-300 ${router.pathname === '/' ? 'text-white' : 'text-black'}`}>Our Story</a></Link>
         <Link href="/registry"><a className={`cursor-pointer mx-4 transform hover:-translate-y-1 ease-in-out duration-300 ${router.pathname === '/' ? 'text-white' : 'text-black'}`}>Registry</a></Link>
         <Link href="/accommodations"><a className={`cursor-pointer mx-4 transform hover:-translate-y-1 ease-in-out duration-300 ${router.pathname === '/' ? 'text-white' : 'text-black'}`}>Accommodations</a></Link>
+        <Link href="/save-the-date"><a className={`cursor-pointer mx-4 transform hover:-translate-y-1 ease-in-out duration-300 ${router.pathname === '/' ? 'text-white' : 'text-black'}`}>Save The Date</a></Link>
         <Link href="/rsvp"><button className={`rounded-md leading-10 ${router.pathname === '/' ? 'bg-white text-blue-600' : 'bg-blue-600 text-white'}  px-4 text-base transform ease-in-out duration-100 hover:shadow-lg hover:-translate-y-1`}>RSVP</button></Link>
       </div>
     </div>
